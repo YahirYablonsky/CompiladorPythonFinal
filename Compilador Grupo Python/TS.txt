@@ -1,0 +1,17 @@
+Nombre                        |Tipo   |Valor                         |Alias          |Limite    |Longitud  
+varFloat1                     |FLOAT  |?                             |               |          |          
+varFloat2                     |FLOAT  |?                             |               |          |          
+varString                     |STRING |?                             |               |          |          
+varInteger1                   |INT    |?                             |               |          |          
+varInteger2                   |INT    |?                             |               |          |          
+_0                            |INT    |0                             |               |          |          
+_0.95                         |FLOAT  |0.95                          |               |          |          
+_1                            |INT    |1                             |               |          |          
+_3                            |INT    |3                             |               |          |          
+_2                            |INT    |2                             |               |          |          
+_10                           |INT    |10                            |               |          |          
+_15                           |INT    |15                            |               |          |          
+_5                            |INT    |5                             |               |          |          
+_Paso_por_el_IF_ANIDADO       |STRING |"Paso por el IF ANIDADO"      |               |30        |22        
+_Paso_por_el_IF               |STRING |"Paso por el IF"              |               |30        |14        
+_Paso_por_el_ELSE             |STRING |"Paso por el ELSE"            |               |30        |16        

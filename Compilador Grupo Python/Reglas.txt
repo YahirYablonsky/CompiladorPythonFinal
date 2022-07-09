@@ -1,0 +1,146 @@
+Entro en Regla 54: LI -> ID 
+Entro en Regla 53: LI -> LI , ID 
+Entro en Regla 55-57: tipo_dato -> FLOAT | STRING | INT
+Entro en Regla 52: D -> LI COLON TIPO ENDL
+Entro en Regla 51: LD -> D 
+Entro en Regla 54: LI -> ID 
+Entro en Regla 55-57: tipo_dato -> FLOAT | STRING | INT
+Entro en Regla 52: D -> LI COLON TIPO ENDL
+Entro en Regla 50: LD -> LD ; D 
+Entro en Regla 54: LI -> ID 
+Entro en Regla 53: LI -> LI , ID 
+Entro en Regla 55-57: tipo_dato -> FLOAT | STRING | INT
+Entro en Regla 52: D -> LI COLON TIPO ENDL
+Entro en Regla 50: LD -> LD ; D 
+Entro en Regla 49: SD -> DECVAR LD ENDDEC 
+Entro en Regla 05: S -> SD
+Entro en Regla 02: B-> S
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 31: SA -> ID := E
+Entro en Regla 05: S -> SA
+Entro en Regla 02: B-> B S
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 31: SA -> ID := E
+Entro en Regla 05: S -> SA
+Entro en Regla 02: B-> B S
+Entro en Regla 41: F-> FLOAT
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 31: SA -> ID := E
+Entro en Regla 05: S -> SA
+Entro en Regla 02: B-> B S
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 35: T -> T * F
+Entro en Regla 32: E -> E + T
+Entro en Regla 42: T-> (E)
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 59: tupla -> [TI;TD] 
+Entro en Regla 58: CD_BTW -> BETWEEN ( tupla ) 
+Entro en Regla 62: C -> C_BTW
+Entro en Regla 22: C -> (C)
+Entro en Regla 45: SRD -> READ ID 
+Entro en Regla 05: S -> SR
+Entro en Regla 02: B-> S
+Entro en Regla 14: SC -> IF LC { LS }
+Entro en Regla 05: S -> SC
+Entro en Regla 02: B-> B S
+Entro en Regla 40: F-> ID
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 25-30: OP_L -> NE | LT | LTE | GT | GTE | EQUAL
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 22: C -> E OP_L E
+Entro en Regla 22: C -> (C)
+Entro en Regla 40: F-> ID
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 25-30: OP_L -> NE | LT | LTE | GT | GTE | EQUAL
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 22: C -> E OP_L E
+Entro en Regla 22: C -> (C)
+Entro en Regla 40: F-> ID
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 32: E -> E + T
+Entro en Regla 31: SA -> ID := E
+Entro en Regla 05: S -> SA
+Entro en Regla 02: B-> S
+Entro en Regla 11: SW -> WHILE LC { LS } 
+Entro en Regla 05: S -> SW
+Entro en Regla 02: B-> S
+Entro en Regla 40: F-> ID
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 32: E -> E + T
+Entro en Regla 25-30: OP_L -> NE | LT | LTE | GT | GTE | EQUAL
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 22: C -> E OP_L E
+Entro en Regla 22: C -> (C)
+Entro en Regla 40: F-> ID
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 25-30: OP_L -> NE | LT | LTE | GT | GTE | EQUAL
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 32: E -> E + T
+Entro en Regla 42: T-> (E)
+Entro en Regla 38: T -> F
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 35: T -> T * F
+Entro en Regla 34: E -> T
+Entro en Regla 22: C -> E OP_L E
+Entro en Regla 22: C -> (C)
+Entro en Regla 43: SWRT -> WRITE STRINGD 
+Entro en Regla 05: S -> SWR
+Entro en Regla 02: B-> S
+Entro en Regla 14: SC -> IF LC { LS }
+Entro en Regla 05: S -> SC
+Entro en Regla 02: B-> S
+Entro en Regla 43: SWRT -> WRITE STRINGD 
+Entro en Regla 05: S -> SWR
+Entro en Regla 02: B-> B S
+Entro en Regla 43: SWRT -> WRITE STRINGD 
+Entro en Regla 05: S -> SWR
+Entro en Regla 02: B-> S
+Entro en Regla 16: SC -> IF LC { LS }  ELSE { LS }
+Entro en Regla 05: S -> SC
+Entro en Regla 02: B-> B S
+Entro en Regla 40: F-> ID
+Entro en Regla 38: T -> F
+Entro en Regla 34: E -> T
+Entro en Regla 39: F-> INTEGER
+Entro en Regla 38: T -> F
+Entro en Regla 32: E -> E + T
+Entro en Regla 31: SA -> ID := E
+Entro en Regla 05: S -> SA
+Entro en Regla 02: B-> B S
+Entro en Regla 11: SW -> WHILE LC { LS } 
+Entro en Regla 05: S -> SW
+Entro en Regla 02: B-> B S
+Entro en Regla 01: P->B
